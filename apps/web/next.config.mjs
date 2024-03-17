@@ -17,6 +17,5 @@ const nextConfig = {
 };
 
 export default stylexPlugin({
-  filename: "stylex-bundle.css",
   rootDir: import.meta.url,
 })(nextConfig);
